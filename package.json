@@ -1,0 +1,29 @@
+{
+  "name": "is-marker-clusterer",
+  "version": "1.0.0",
+  "description": "Wrapper of js-marker-clusterer for node usage of Google Maps marker clustering from the original https://github.com/googlemaps/js-marker-clusterer",
+  "author": "Jameel Moses",
+  "main": "src/markerclusterer.js",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameelmoses/is-marker-clusterer"
+  },
+  "bugs": {
+    "url": "https://github.com/jameelmoses/is-marker-clusterer/issues"
+  },
+  "keywords": [
+    "browserify",
+    "googlemaps",
+    "marker",
+    "cluster"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "leche": "^2.1.1",
+    "mocha": "^2.2.5"
+  }
+}
